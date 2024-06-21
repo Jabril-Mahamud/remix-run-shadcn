@@ -16,6 +16,7 @@ import {
 } from "@/components/theme-switcher";
 
 import "./globals.css";
+import Navbar from "./routes/navbar";
 
 function App({ children }: { children: React.ReactNode }) {
 	return (

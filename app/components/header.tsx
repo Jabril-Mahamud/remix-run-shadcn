@@ -16,6 +16,7 @@ import {
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import Navbar from "@/routes/navbar";
 
 export function Header() {
 	const hydrated = useHydrated();
@@ -34,6 +35,7 @@ export function Header() {
 					<span className="text-lg font-bold">shadcn</span>
 				</Link>
 			</div>
+			<Navbar />
 			<DropdownMenu>
 				<DropdownMenuTrigger asChild>
 					<Button
