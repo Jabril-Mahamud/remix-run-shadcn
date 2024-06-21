@@ -28,9 +28,9 @@ export default function Navbar() {
       route: "/blog",
     },
   ];
-  
+
   return (
-      <div className="flex flex-row gap-4 justify-center">
+      <div className="flex flex-row gap-4 justify-center underline">
         {routes.map((route) => (
           <Link to={route.route}>
             {route.name}
