@@ -16,7 +16,7 @@ import {
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import Navbar from "@/routes/navbar";
+import Navbar from "./navbar";
 
 export function Header() {
 	const hydrated = useHydrated();
