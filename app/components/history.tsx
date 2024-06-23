@@ -1,6 +1,6 @@
 import { Table, TableCaption, TableHeader, TableRow, TableHead, TableBody, TableCell } from "./ui/table";
 
-export default function History() {
+export default function CommunityTable() {
 	return (
         <div className="container mx-auto outline outline-1">
             <Table>
