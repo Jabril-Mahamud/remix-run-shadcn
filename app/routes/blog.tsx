@@ -25,18 +25,20 @@ const columns: GridColDef[] = [
 
 export default function DataTable() {
   return (
-    <div style={{ height: 400, width: '100%' }}>
+    <div className="container mx-auto">
+    <div style={{ height: "100%", width: '100%' }}>
       <DataGrid
         rows={data}
         columns={columns}
         initialState={{
           pagination: {
-            paginationModel: { page: 0, pageSize: 5 },
+            paginationModel: { page: 0, pageSize: 8 },
           },
         }}
         pageSizeOptions={[5, 10]}
         checkboxSelection
       />
+    </div>
     </div>
   );
 }
