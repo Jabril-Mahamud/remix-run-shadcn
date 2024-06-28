@@ -23,7 +23,7 @@ const columns: GridColDef[] = [
 ];
 
 
-export default function DataTable() {
+export default function Index() {
   return (
     <div className="container mx-auto">
     <div style={{ height: "100%", width: '100%' }}>
